@@ -1,17 +1,48 @@
+/* After adding the main 5 sections of HTML, I first:
+1. Applied flex to the body and set margin to zero
+2. Set flex direction to column so it stacks vertically
+3. set height to 100 viewport height
+4. Set flex 1 to all section to make them equally sized
+5. Added color to sections
+6. After adding header links & logo, I styled them to display correctly.
+-------------------------------------------------------------------------------------------------
+*/
 body {
     display: flex;
     flex-direction: column;
     margin: 0;
     height: 100vh;
 }
+a {text-decoration: none;}
+
+ul { list-style: none;}
 
 .header, .section1, .section2, .section3, .footer {
+    display: flex;
     flex: 1;
 }
 
 .header {
     background-color: #1f2937;
 }
+
+.leftlinks {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-left: 100px;
+}
+
+.rightlinks {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    gap: 8px;
+    padding-left: 900px;
+}
+
+
+
 .section1 {
     background-color: rgb(252, 252, 252);
 }
@@ -24,3 +55,4 @@ body {
 .footer {
     background-color: #1f2937;
 }
+
