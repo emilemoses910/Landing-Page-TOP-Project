@@ -141,8 +141,7 @@ ul { list-style: none; font-size: 18px;}
   width: 800px;
   display: flex;
   flex-direction: column;
-  padding: 20px;
-  font-style:italic;
+  padding-left: 80px;
 }
 
 .paragraph-s2 {
@@ -151,18 +150,19 @@ ul { list-style: none; font-size: 18px;}
     align-items: center;
     width: 700px;
     padding-top: 60px;
-    font-weight:20;
-    font-size:36px;
+    font-weight: 100;
+    font-style:italic;
+    font-size: 26px
 }
 
 .author {
     display: flex;
     justify-content: right;
-    padding-right: 300px;
+    padding-right: 120px;
     padding-bottom: 50px;
-    font-size:36px;
+    font-size:20px;
+    font-weight: bold;
 }
-
 
 .section3 {
     background-color: rgb(252, 252, 252);
@@ -174,5 +174,6 @@ ul { list-style: none; font-size: 18px;}
     color: #e5e7eb;
     align-items: end;
     justify-content: center;
-    padding-bottom: 15px;
+    padding-bottom: 30px;
+    padding-top: 30px;
 }
